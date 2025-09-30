@@ -17,7 +17,7 @@ It uses **Cucumber (BDD)**, **Selenium WebDriver**, and **Java** to simulate dif
 ---
 
 ## ⚙️ Tools & Technologies
-- Java 11+
+- Java
 - Selenium WebDriver
 - Cucumber (BDD)
 - JUnit
@@ -26,19 +26,20 @@ It uses **Cucumber (BDD)**, **Selenium WebDriver**, and **Java** to simulate dif
 
 ---
 
-## ▶️ How to Run
-1. Clone this repository  
-2. Install dependencies:  
+## ⚙️ Setup Instructions
+
+1. **Clone or Create Project**
    ```bash
-   mvn clean install
+   git clone <repo-url>
+   cd SeleniumLoginProject 
+2. **Maven Dependencies**
+   - **IntelliJ will auto-import dependencies from pom.xml.**
+   - **Or run:**
+     mvn clean install
    ```
 3. Run tests:  
    ```bash
    mvn test
-   ```
-4. Reports will be generated at:  
-   ```
-   target/cucumber-reports.html
    ```
 
 ---
