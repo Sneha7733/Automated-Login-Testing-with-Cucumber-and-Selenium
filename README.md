@@ -36,7 +36,6 @@ It uses **Cucumber (BDD)**, **Selenium WebDriver**, and **Java** to simulate dif
    - **IntelliJ will auto-import dependencies from pom.xml.**
    - **Or run:**
      mvn clean install
-   ```
 3. Run tests:  
    ```bash
    mvn test
